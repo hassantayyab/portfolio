@@ -433,6 +433,9 @@ h1 {
               padding: 12px 16px;
               width: 100%;
               resize: none; }
+            #footer .footer-content .row .col-6:last-child form fieldset .captcha {
+              margin-bottom: 1rem;
+              width: 100%; }
             #footer .footer-content .row .col-6:last-child form fieldset input[type="submit"] {
               border-color: #ffde00;
               outline: 0;

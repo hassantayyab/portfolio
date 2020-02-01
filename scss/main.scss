@@ -373,6 +373,10 @@ h1 {
               width: 100%;
               resize: none;
             }
+            .captcha {
+              margin-bottom: 1rem;
+              width: 100%;
+            }
             input[type="submit"] {
               @include btn($primary-bg-color, $primary-text-color);
               line-height: 0.7;

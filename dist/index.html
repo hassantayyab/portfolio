@@ -39,10 +39,14 @@
             <a href="work.html"><img src="img/twitter.png" alt="twitter"/></a>
           </li>
           <li>
-            <a href="work.html"><img src="img/linked-in.png" alt="linked-in"/></a>
+            <a href="work.html"
+              ><img src="img/linked-in.png" alt="linked-in"
+            /></a>
           </li>
           <li>
-            <a href="work.html"><img src="img/instagram.png" alt="instagram"/></a>
+            <a href="work.html"
+              ><img src="img/instagram.png" alt="instagram"
+            /></a>
           </li>
           <li>
             <a href="work.html"><img src="img/github.png" alt="github"/></a>
@@ -235,7 +239,13 @@
             </div>
           </div>
           <div class="col-6">
-            <form action="/action_page.php" class="text-left">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify-recaptcha="true"
+              data-netlify="true"
+              class="text-left"
+            >
               <fieldset>
                 <legend><h3>Contact Me</h3></legend>
                 <input type="text" name="email" value="" placeholder="Email" />
@@ -247,9 +257,13 @@
                 />
                 <textarea
                   name="message"
+                  value=""
                   rows="3"
                   placeholder="Message"
                 ></textarea>
+                <div class="captcha">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
                 <input type="submit" class="btn" value="SEND" />
               </fieldset>
             </form>
