@@ -363,6 +363,7 @@ h1 {
         background: url("/dist/img/blue-sm-bg.png") center/110% no-repeat; } }
 
 #footer {
+  background-color: #27261d;
   color: #fffce6; }
   #footer .footer-img-container {
     background-color: #27261d;
