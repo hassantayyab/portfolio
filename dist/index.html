@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+      defer
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/42842c3232.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Hassan Tayyab | Web Developer</title>
+  </head>
+  <body>
+    <!-- Side Nav Menu -->
+    <div class="backdrop"></div>
+    <div id="sideNavMenu" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul class="menu">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#what-i-do">What I Do</a></li>
+        <li><a href="#footer">Contact Me</a></li>
+      </ul>
+
+      <div class="social">
+        <ul>
+          <li>
+            <a href="work.html"><img src="img/twitter.png" alt="twitter"/></a>
+          </li>
+          <li>
+            <a href="work.html"><img src="img/linked-in.png" alt="linked-in"/></a>
+          </li>
+          <li>
+            <a href="work.html"><img src="img/instagram.png" alt="instagram"/></a>
+          </li>
+          <li>
+            <a href="work.html"><img src="img/github.png" alt="github"/></a>
+          </li>
+          <li>
+            <a href="work.html"><img src="img/facebook.png" alt="facebook"/></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="header-img-container"></div>
+      <div class="container">
+        <!-- Navigation -->
+        <nav id="header-menu">
+          <!-- Navigation Menu -->
+          <div class="menu">
+            <img src="img/logo.png" alt="" />
+            <ul>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#what-i-do">What I Do</a></li>
+              <li><a href="#footer">Contact Me</a></li>
+            </ul>
+          </div>
+          <!-- Social Media Navigations -->
+          <ul class="social">
+            <li>
+              <a href="work.html"><img src="img/twitter.png" alt="twitter"/></a>
+            </li>
+            <li>
+              <a href="work.html"
+                ><img src="img/linked-in.png" alt="linked-in"
+              /></a>
+            </li>
+            <li>
+              <a href="work.html"
+                ><img src="img/instagram.png" alt="instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="work.html"><img src="img/github.png" alt="github"/></a>
+            </li>
+            <li>
+              <a href="work.html"
+                ><img src="img/facebook.png" alt="facebook"
+              /></a>
+            </li>
+          </ul>
+
+          <!-- Mobile Hamburger -->
+          <div class="hamburger">
+            <i class="material-icons" onclick="openNav()">
+              menu
+            </i>
+          </div>
+          <!-- <div class="hamburger" onclick="openNav()">&#9776;</div> -->
+        </nav>
+
+        <!-- Header Content -->
+        <div id="header-content">
+          <div class="row">
+            <div class="col-8">
+              <h1>Welcome to my World</h1>
+              <p>
+                Hey there! I am Hassan with a passion for web design and
+                development. If you think you have something interesting to
+                offer then don't hesitate to contact me
+              </p>
+              <a href="#footer">
+                <span> Contact</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <div class="img-container">
+                <img src="img/header-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section What I Do -->
+    <section id="what-i-do">
+      <div class="container">
+        <div class="web-development row">
+          <div class="col-6 text-center">
+            <div class="img-container">
+              <img src="img/web-development.png" alt="" />
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="content-container">
+              <h1>Web Development</h1>
+              <p>
+                I strive for visually appealing websites with responsive layout,
+                animations and fast loading times.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="web-design row">
+          <div class="col-6">
+            <div class="content-container">
+              <h1>Web Design</h1>
+              <p>
+                I use proper web design solution that includes wireframes with
+                prototyping and design following modern trends.
+              </p>
+            </div>
+          </div>
+          <div class="col-6 text-center">
+            <div class="img-container">
+              <img src="img/web-design.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section About Me -->
+    <section id="about-me">
+      <div class="mobile-img-container"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 text-right">
+            <div class="content-container">
+              <div class="text-center">
+                <h1>About Me</h1>
+                <p>
+                  I am a MEAN/MERN Stack developer. Being an enthusiastic web
+                  developer with my current expertise in front-end development
+                  using Angular and React with Redux, I am eager to learn new
+                  technologies including web designing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 text-center">
+            <div class="img-container">
+              <img src="img/me-web.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="container">
+      <div class="footer-img-container"></div>
+      <!-- Head -->
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-6">
+            <div>
+              <h2>Want To Know More About Me?</h2>
+              <p>Then Click Below :)</p>
+              <button type="button">Download CV</button>
+              <ul class="social">
+                <li>
+                  <a href="work.html"
+                    ><img src="img/twitter.png" alt="twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="work.html"
+                    ><img src="img/linked-in.png" alt="linked-in"
+                  /></a>
+                </li>
+                <li>
+                  <a href="work.html"
+                    ><img src="img/instagram.png" alt="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="work.html"
+                    ><img src="img/github.png" alt="github"
+                  /></a>
+                </li>
+                <li>
+                  <a href="work.html"
+                    ><img src="img/facebook.png" alt="facebook"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6">
+            <form action="/action_page.php" class="text-left">
+              <fieldset>
+                <legend><h3>Contact Me</h3></legend>
+                <input type="text" name="email" value="" placeholder="Email" />
+                <input
+                  type="text"
+                  name="subject"
+                  value=""
+                  placeholder="Subject"
+                />
+                <textarea
+                  name="message"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+                <input type="submit" class="btn" value="SEND" />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Foot -->
+      <div class="footer-foot">
+        <div class="row">
+          <p>Copyright &copy; 2020 hassantayyab. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
