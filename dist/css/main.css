@@ -323,7 +323,7 @@ h1 {
   /* For Mobile */ }
   #about-me .row .content-container {
     height: 100%;
-    background: url("/dist/img/blue-bg.png") center/contain no-repeat;
+    background: url("/img/blue-bg.png") center/contain no-repeat;
     display: inline-flex;
     align-items: center;
     width: 92%; }
@@ -343,7 +343,7 @@ h1 {
           left: 0;
           right: 0;
           z-index: -1;
-          background: url("/dist/img/blue-sm-bg.png") center/contain no-repeat; }
+          background: url("/img/blue-sm-bg.png") center/contain no-repeat; }
         #about-me .row .content-container {
           background: none;
           width: 100%; }
@@ -360,7 +360,7 @@ h1 {
       padding: 2rem 0; }
       #about-me .mobile-img-container {
         top: -4.7rem;
-        background: url("/dist/img/blue-sm-bg.png") center/110% no-repeat; } }
+        background: url("/img/blue-sm-bg.png") center/110% no-repeat; } }
 
 #footer {
   background-color: #27261d;

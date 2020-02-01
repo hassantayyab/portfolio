@@ -237,7 +237,7 @@ h1 {
   .row {
     .content-container {
       height: 100%;
-      background: url("/dist/img/blue-bg.png") center/contain no-repeat;
+      background: url("/img/blue-bg.png") center/contain no-repeat;
       display: inline-flex;
       align-items: center;
       width: 92%;
@@ -260,7 +260,7 @@ h1 {
         left: 0;
         right: 0;
         z-index: -1;
-        background: url("/dist/img/blue-sm-bg.png") center/contain no-repeat;
+        background: url("/img/blue-sm-bg.png") center/contain no-repeat;
       }
       .row {
         // height: 250px;
@@ -285,7 +285,7 @@ h1 {
     & {
       .mobile-img-container {
         top: -4.7rem;
-        background: url("/dist/img/blue-sm-bg.png") center/110% no-repeat;
+        background: url("/img/blue-sm-bg.png") center/110% no-repeat;
       }
     }
   }
