@@ -175,6 +175,7 @@ body {
 a {
   text-decoration: none;
   outline: none;
+  background-color: transparent;
   color: #27261d; }
 
 ul {
