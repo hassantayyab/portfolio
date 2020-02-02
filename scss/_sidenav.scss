@@ -43,7 +43,7 @@
   box-shadow: -5px 0px 10px #2d2c1f63;
   overflow-x: hidden;
   transition: 0.3s ease-out;
-  padding-top: 60px;
+  padding-top: 6rem;
   .menu {
     li {
       display: none;
@@ -66,11 +66,9 @@
     justify-content: center;
     ul {
       display: flex;
-      flex-wrap: wrap;
       li {
         display: none;
         &.open {
-          // transition: all 1s ease-out;
           display: flex;
         }
         padding: 1.3rem 0.8rem;
@@ -90,8 +88,8 @@
   .closebtn {
     @include sidenav-links();
     position: absolute;
-    top: 0;
-    right: 6px;
+    top: 11px;
+    right: 8px;
     font-size: 44px;
     &:hover {
       color: $primary-bg-color;
@@ -105,7 +103,8 @@
     display: block;
   }
   .sidenav {
-    padding-top: 60px;
+    padding-top: 6rem;
+
     a {
       font-size: 24px;
     }

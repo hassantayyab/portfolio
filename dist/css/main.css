@@ -101,7 +101,7 @@
   box-shadow: -5px 0px 10px #2d2c1f63;
   overflow-x: hidden;
   transition: 0.3s ease-out;
-  padding-top: 60px; }
+  padding-top: 6rem; }
   .sidenav .menu li {
     display: none; }
     .sidenav .menu li.open {
@@ -121,8 +121,7 @@
     bottom: 0;
     justify-content: center; }
     .sidenav .social ul {
-      display: flex;
-      flex-wrap: wrap; }
+      display: flex; }
       .sidenav .social ul li {
         display: none;
         padding: 1.3rem 0.8rem; }
@@ -144,8 +143,8 @@
     color: #fffbe1;
     transition: 0.2s ease-out;
     position: absolute;
-    top: 0;
-    right: 6px;
+    top: 11px;
+    right: 8px;
     font-size: 44px; }
     .sidenav .closebtn:hover {
       color: #ffde00; }
@@ -155,7 +154,7 @@
   .hamburger {
     display: block; }
   .sidenav {
-    padding-top: 60px; }
+    padding-top: 6rem; }
     .sidenav a {
       font-size: 24px; } }
 
@@ -249,18 +248,20 @@ h1 {
       font-size: 18px;
       letter-spacing: 1px;
       margin-top: 1.4rem;
-      line-height: 0; }
+      line-height: 1; }
       #header-home .container #header-content div:first-child a:hover {
         color: #27261d;
         background: #fffce6;
         border-color: #fffce6; }
+      #header-home .container #header-content div:first-child a span {
+        vertical-align: middle; }
       #header-home .container #header-content div:first-child a i {
-        font-size: 16px;
-        transition: margin-left 0.4s;
-        margin-left: 3px; }
+        font-size: 18px;
+        vertical-align: middle;
+        transition: margin-left 0.4s; }
       #header-home .container #header-content div:first-child a:hover i {
         transition: all 0.4s ease-out;
-        margin-left: 8px; }
+        margin-left: 5px; }
     #header-home .container #header-content .img-container {
       width: 200px; }
   @media (max-width: 992px) {

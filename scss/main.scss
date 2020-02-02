@@ -115,16 +115,19 @@ h1 {
           font-size: 18px;
           letter-spacing: 1px;
           margin-top: 1.4rem;
-          line-height: 0;
+          line-height: 1;
+          span {
+            vertical-align: middle;
+          }
           i {
-            font-size: 16px;
+            font-size: 18px;
+            vertical-align: middle;
             transition: margin-left 0.4s;
-            margin-left: 3px;
           }
           &:hover {
             i {
               transition: all 0.4s ease-out;
-              margin-left: 8px;
+              margin-left: 5px;
             }
           }
         }
